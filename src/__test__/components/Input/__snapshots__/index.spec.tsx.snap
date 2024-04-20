@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input component should handle render input text 1`] = `
+<div>
+  <div>
+    <label
+      for="test"
+    >
+      test
+    </label>
+    <input
+      id="test"
+      name="test"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`input component should handle render input textarea 1`] = `
+<div>
+  <div>
+    <label
+      for="test"
+    >
+      test
+    </label>
+    <textarea
+      id="test"
+      name="test"
+    />
+  </div>
+</div>
+`;

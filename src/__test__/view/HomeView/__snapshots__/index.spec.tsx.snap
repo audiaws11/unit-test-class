@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home view should handle render homepage 1`] = `
+<div>
+  <div>
+    <h1>
+      add a user
+    </h1>
+    <div>
+      <label
+        for="Name"
+      >
+        Name
+      </label>
+      <input
+        id="Name"
+        name="Name"
+        type="text"
+      />
+    </div>
+    <div>
+      <label
+        for="Email"
+      >
+        Email
+      </label>
+      <input
+        id="Email"
+        name="Email"
+        type="text"
+      />
+    </div>
+    <button>
+      submit
+    </button>
+    <div>
+      <label
+        for="Description"
+      >
+        Description
+      </label>
+      <textarea
+        id="Description"
+        name="Description"
+      />
+    </div>
+    <hr />
+    <h1>
+      list of user
+    </h1>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            jane
+          </td>
+          <td>
+            jane@email.com
+          </td>
+        </tr>
+        <tr>
+          <td>
+            alex
+          </td>
+          <td>
+            alex@email.com
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
